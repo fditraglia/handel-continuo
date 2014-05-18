@@ -167,17 +167,101 @@ c1
 
 \figures{
 
-< 3 >4 < _- > < 3 > < _- > 
-< _+ > < _! > < _+ > < _!>
-< _ >2 < _+ >4 < _ >
-< _! >2 < 3 >4 < _+ >
-< 3 > < _+ > < _- > < _! >
-< _- > < _! > < _ >2
-< _ >1
-< _ >
-}
+<3>4 <_-> <3> <_-> 
+<_+> <_!> <_+> <_!>
+<_>2 <_+>4 <_>
+<_!>2 <3 >4 <_+>
+<3> <_+> <_-> <_!>
+<_-> <_!> <_>2
+<_>1
+<_>
+
+} %END figures
+>>
+} %END score
+
+
+
+
+\score{
+
+\header{
+
+piece = "No. 7"
+
+} %END header
+
+<<
+\relative{
+
+\time 4/4
+\clef bass
+\key g \major
+
+g,8 g' fs d e fs g b,
+c d e fs g fs g e
+a fs g a d, d' b a
+g fs e c d g, d' d,
+g1
+\bar "||"
+
+} %END relative
+
+\figures{
+
+<_>8 <_> <6> <_> <6> <6> <_> <6>
+<6> <6> <6> <6> <_> <_> <6> <_>
+<_+> <6> <_> <_+> <_> <_> <6> <6> 
+<6> <6> <6> <_> <_>2 
+
+} %END figures
 
 >>
+
+} %END score
+
+
+
+
+\score{
+
+\header{
+
+piece = "No. 8"
+
+} %END header
+
+<<
+\relative{
+
+\time 4/4
+\clef bass
+\key e \minor
+
+e4 fs g8 e a fs
+b a g e a g fs d
+g fs e d cs4 d8 e
+fs fs, fs' e ds b cs ds 
+e4 a, b2
+e1 
+\bar "||"
+
+} %END relative
+
+\figures{
+
+<_>4 <6\\> <6>8 <_> <6> <_>
+<_+> <_> <6> <_> <_> <_> <6> <_>
+<_> <_> <6\\> <6> <6\\>4 <6>8 <_>
+<5\\ _+> <_> <_> <_> <6> <_+> <6> <6> 
+<_>4 <_> <_+>2
+<_>1
+
+} %END figures
+
+>>
+} %END score
+
 
 
 
