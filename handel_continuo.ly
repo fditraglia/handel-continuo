@@ -12,11 +12,18 @@ tagline = \date
 
 }
 
-
 \include "english.ly"
 
-\markup { No. 1}
-<<
+
+
+\score{
+
+\header{
+
+piece = "No. 1"
+
+} %END header
+
 \relative {
 
 \time 4/4
@@ -30,13 +37,24 @@ a f
 g a
 f g 
 c,1
+\bar "||"
  
-}
->>
+} %END relative
+
+} %END score
 
 
-\markup { No. 2 }
-<<
+
+
+
+\score{
+
+\header{
+
+piece = "No. 2"
+
+} %END header
+
 \relative{
 
 \time 4/4
@@ -50,13 +68,24 @@ e' c g' e
 b' g d' d, 
 e c d2
 g,1
+\bar "||"
 
-}
->>
+} %END relative
+
+} %END score
 
 
-\markup { No. 3 }
-<<
+
+
+
+\score{
+
+\header{
+
+piece = "No. 3"
+
+} %END header
+
 \relative{
 
 \time 4/4
@@ -69,13 +98,23 @@ c d c bf a g f a
 bf a g bf c bf a c 
 d c d e f4 bf,
 c2 f,
+\bar "||"
 
-}
->>
+} %END relative
+
+} %END score
 
 
 
-\markup{ No. 4 }
+
+\score{
+
+\header{
+
+piece = "No. 4"
+
+} %END header
+
 <<
 \relative{
 
@@ -91,26 +130,38 @@ d
 g
 a1 a,2
 d1.
-}
+\bar "||"
+} %END relative
 
 \figures{
 
-< _ >1.  
-< _+ >1 < _ >2
-< _ >1.
-< _ >1.
-< _ >1.
-< _ >1.
-< _+ >1 < _+ >2
-< _ >1.
+<_>1.  
+<_+>1 <_>2
+<_>1.
+<_>1.
+<_>1.
+<_>1.
+<_+>1 <_+>2
+<_>1.
 
-}
+} %END figures
 >>
 
+} %END score
 
 
 
-\markup{ No. 5 }
+
+
+\score{
+
+\header{
+
+piece = "No. 5"
+
+} %END header
+
+
 <<
 \relative{
 
@@ -126,27 +177,39 @@ ef d c d ef c
 d e fs d g2
 c,2 d1
 g,1.
+\bar "||"
 
-}
+} %END relative
 
 \figures{
 
-< _ >1 < _+ >4 < _ >4
-< _ >1.
-< _ >
-< _ >
-< _ >
-< _+ >4 < _ >4 < _ >1
-< _ >2 < _+ >1
-< _ >1.
+<_>1 <_+>4 <_>4
+<_>1.
+<_>
+<_>
+<_>
+<_+>4 <_>4 <_>1
+<_>2 <_+>1
+<_>1.
 
-}
+} %END figures
 
 >>
 
+} %END score
 
 
-\markup{ No. 6}
+
+
+
+\score{
+
+\header{
+
+piece = "No. 6"
+
+} %END header
+
 <<
 \relative{
 
@@ -162,8 +225,9 @@ d g,
 c f4 d
 g c, g' g,
 c1
+\bar "||"
 
-}
+} %END relative
 
 \figures{
 
