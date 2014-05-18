@@ -1,3 +1,6 @@
+%define a variable to hold the formatted date:
+date = #(strftime "This Version: %m-%d-%Y" (localtime (current-time)))
+
 %Select paper size: a4 or letter
 #(set-default-paper-size "letter")
 
@@ -5,6 +8,7 @@
 \header{
 title = "Handel's Exercises in Figured Bass"
 tagline = ""
+tagline = \date
 
 }
 
