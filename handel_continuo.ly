@@ -1,3 +1,6 @@
+%Select paper size: a4 or letter
+#(set-default-paper-size "letter")
+
 
 \header{
 title = "Handel's Exercises in Figured Bass"
