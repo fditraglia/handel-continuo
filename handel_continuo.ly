@@ -6,8 +6,8 @@ date = #(strftime "This Version: %m-%d-%Y" (localtime (current-time)))
 
 
 \header{
-title = "Handel's Exercises in Figured Bass"
-tagline = ""
+title = "Exercises in Figured Bass"
+composer  = "G.F. Handel"
 tagline = \date
 
 }
